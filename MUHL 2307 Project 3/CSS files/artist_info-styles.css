@@ -1,0 +1,295 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Nav_bar{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    z-index: 8;
+}
+
+.Nav_container{
+    display:flex;
+    justify-content: center;
+    height: 80px;
+    z-index: 4;
+    width:85%;
+    max-width: 1300000px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.NavigationBar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    z-index: 8;
+    margin: 0 auto;
+    padding: 50px 0;
+    list-style: none;
+}
+
+.section-links{
+    height: 10px;
+    z-index: 8;
+}
+
+.page_li{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5rem;
+    height: 100%;
+}
+
+.text{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    margin: 50px auto;
+}
+
+.logo-header{
+    height: auto; 
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.logo-header img{
+    width: 50%;
+    height: auto;
+}
+
+.Main_Background{
+    width: 85%;
+    text-align: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.Main_Background h2{
+    padding-top: 50px;
+   padding-bottom: 10px;
+    font-size: 32px;
+}
+
+.Main_Background p {
+    font-style: italic;
+    line-height: 50px;
+    width: 65%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 50px;
+    font-size: 16px;
+}
+
+.bottom{
+    background-color: black;
+    color: white;
+    height:100px;
+    background-size: cover;
+}
+
+.disclaimer{
+    font-size: 10px;
+    text-align: right;
+    padding-top: 80px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent; /* Set track background color to transparent */
+    background-image: radial-gradient(circle, #ffffff 1px, transparent 1px); /* Dot pattern */
+    background-size: 20px 20px;
+}
+
+/* Customize the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, rgb(255, 255, 255) 0%, rgb(122, 122, 248) 20%, rgb(0, 195, 255) 40%, #7ef4ff 60%, rgb(255, 255, 255) 80%, rgb(0, 106, 255) 100%);
+    border-radius: 10px;
+    /* Use a linear gradient for the thumb background */
+}
+
+/* Customize the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+
+    background: linear-gradient(45deg, rgb(255, 255, 255) 0%, rgb(122, 122, 248) 20%, rgb(190, 82, 252) 40%, #ff3bc8 60%, rgb(240, 101, 42) 80%, rgb(119, 255, 0) 100%); /* Change the color of the scrollbar thumb on hover */
+}
+
+@media (max-width: 1163px) {
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .Nav_bar{
+        background: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 0;
+        z-index: 8;
+    }
+    
+    .Nav_container{
+        display:flex;
+        justify-content: center;
+        height: 80px;
+        z-index: 4;
+        width:85%;
+        max-width: 1300000px;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+    
+    .NavigationBar{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 80px;
+        z-index: 8;
+        margin: 0 auto;
+        padding: 50px 0;
+        list-style: none;
+    }
+    
+    .section-links{
+        height: 15px;
+        z-index: 8;
+    }
+    
+    .page_li{
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 2.5rem;
+        height: 100%;
+        font-size: 12px;
+    }
+
+    .text{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 26px;
+    }
+
+    .Main_Background h2{
+        padding-top: 40px;
+       padding-bottom: 20px;
+        font-size: 28px;
+    }
+    
+    .Main_Background p {
+        line-height: 40px;
+        width: 65%;
+        justify-content: center;
+        margin: auto;
+        padding-bottom: 40px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 722px) {
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .Nav_bar{
+        background: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 0;
+        z-index: 8;
+    }
+    
+    .Nav_container{
+        display:flex;
+        justify-content: center;
+        height: 80px;
+        z-index: 4;
+        width:85%;
+        max-width: 1300000px;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+    
+    .NavigationBar{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 40px;
+        z-index: 8;
+        margin: 0 auto;
+        padding: 50px 0;
+        list-style: none;
+    }
+    
+    .section-links{
+        height: 10px;
+        z-index: 8;
+    }
+    
+    .page_li{
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 1rem;
+        height: 100%;
+        font-size: 10px;
+    }
+
+    .text{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .Main_Background h2{
+        padding-top: 40px;
+       padding-bottom: 6px;
+        font-size: 24px;
+    }
+    
+    .Main_Background p {
+        font-style: italic;
+        line-height: 30px;
+        width: 65%;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        padding-bottom: 30px;
+        font-size: 12px;
+    }
+}
